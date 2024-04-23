@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/************ Utilities ***********/
+.text_dark{
+    color: black;
+}
+.text_60{
+    opacity: 60%;
+}
+
+:root{
+    --red-border: 2px solid red;
+    /* --red-border: none; */
+}
+
+/************ NAVBAR ***********/
+nav{
+    width: 100%;
+    box-shadow: 0px 1px 10px 0px rgba(150, 148, 148, 0.75);
+}
+.inner_nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    border: var(--red-border);
+    justify-content: space-between;
+}
+.inner_nav ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border: var(--red-border);
+}
+.inner_nav a{
+    text-decoration: none;
+    color: black;
+}
+.inner_nav a span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inner_nav ul a li{
+    list-style: none;
+    font-size: 16px;
+}
+.inner_nav ul a li i{
+    font-size: 20px;
+    position: relative;
+    top: 1.5px;
+}
+/************ MAIN ***********/
+main{
+    width: 75%;
+    margin: auto auto 6rem auto;
+    border: 1px solid blue;
+}
+
+/* SECTION-1 */
+.section_1{
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_1_left{
+    border: var(--red-border);  
+    width: 400px;
+}
+.section_1_left p{
+    font-size: 65px;
+    font-weight: 600;
+}
+.section_1_left span{
+    font-size: 24px;
+}
+/* SECTION-2 */
+
+.section_2{
+    display: flex;
+}
+
+.section_2_left{
+    width: 60%;
+    box-shadow: 0px 1px 10px 0px rgba(150, 148, 148, 0.75);
+    padding: 2rem 5rem;
+    border-radius: 5px 0 0 5px;
+}
+.section_2_left_head{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.section_2_left_foot{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.section_2_left_foot a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.section_2_right{
+    width: 40%;
+    overflow: hidden;
+}
+.section_2_right img{
+    height: 100%;
+}
