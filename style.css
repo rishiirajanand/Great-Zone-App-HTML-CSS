@@ -115,3 +115,47 @@ main{
 .section_2_right img{
     height: 100%;
 }
+
+/* SECTION-3 */
+
+.section_3{
+    border: var(--red-border);
+    margin-top: 2rem;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 290px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px 0px rgba(150, 148, 148, 0.75);
+    border-radius: 5px;
+}
+.card_body{
+    padding: 15px;
+}
+.card_body span{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.6rem 0;
+    display: inline-block;
+}
+.card_body p{
+    font-size: 14px;
+}
+
+.card_foot{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.card_foot span:first-child{
+    font-size: 13px;
+}
+.card_foot a{
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
